@@ -57,3 +57,6 @@ Your goal is to add the following functionality to the
 - [Action Controller Overview: Filters][filters]
 
 [filters]: http://guides.rubyonrails.org/action_controller_overview.html#filters
+
+
+  <!-- return render json: { error: "Not authorized" }, status: :unauthorized unless session.include? :user_id -->
